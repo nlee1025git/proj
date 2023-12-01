@@ -26,6 +26,10 @@ public class App extends Application {
         return 12345;
     }
 
+    public static void setInt(int newInt) {
+        int x = newInt;
+    }
+
     public static void main(String[] args) {
         launch();
         System.out.println(getInt());
