@@ -5,6 +5,6 @@ public class TestApp {
     @Test
     void test1() {
         int x = 5;
-        assertequals(5, x);
+        assertEquals(5, x);
     }    
 }
