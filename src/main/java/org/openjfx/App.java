@@ -22,8 +22,13 @@ public class App extends Application {
         stage.show();
     }
 
+    public static int getInt() {
+        return 12345;
+    }
+
     public static void main(String[] args) {
         launch();
+        System.out.println(getInt());
     }
 
 }
